@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>TrtInfo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
+		<meta charset="utf-8" />
+		<link href="css/s01.css" rel="stylesheet" type="text/css" />
+
+		<style>
+			.err {
+				text-align: center;
+				margin-top: 16rem;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="boso" class="boso Lc_noadr bg scan_bg_o">
+			<div id="homTim" class="home_tim"></div>
+			<div id="appnam" class="check_title mfs">标签扫描</div>
+			<div id="btn" class="scan_btn scan_btn_e"></div>
+			<div id="content" class="err bfs">未搜索到标签</div>
+			<div class="home_back" onclick="dat.back();"></div>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		var dat = {
+			back: function () {
+				location.href = "readTrt.html";
+			}
+		};
+	</script>
+</html>
